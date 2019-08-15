@@ -1,0 +1,74 @@
+.App {
+  text-align: center;
+  background-color: #121212;
+  min-height: 100vh;
+  
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: #121212;
+  padding:1em;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card-container{
+  font-size:.75em;
+  border-radius:5px;
+  background-color: #242424;
+  padding:1em;
+  margin:.5em;
+  color:#949494;
+  
+}
+.cardlist-container{
+  margin-top: 30vh; 
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  width:90%;
+  margin:auto;
+  
+}
+
+h1{
+  color:#f4f4f4;
+}
+
+.input-upload {
+  text-align:center;
+  padding:.25em;
+  border-width:0;
+
+}
+
+.input-text {
+  padding:.75em;
+  border-radius:5px;
+  width:300px;
+  border:none;
+}
+
+
